@@ -8,7 +8,7 @@ const PaymentDetails = () => {
 
   const fetchPaymentDetails = async () => {
     try {
-      const response = await fetch(`https://stripe-backend-ufpm.onrender.com/api/payment/${paymentId}`);
+      const response = await fetch(`https://stripe-backend-1ull.onrender.com/api/payment/${paymentId}`);
       
       if (!response.ok) {
         throw new Error('Payment not found');
