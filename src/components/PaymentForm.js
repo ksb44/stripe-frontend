@@ -29,7 +29,7 @@ const PaymentForm = () => {
       return;
     }
 
-    const response = await fetch('https://stripe-backend-ufpm.onrender.com/api/payment/create', {
+    const response = await fetch('https://stripe-backend-1ull.onrender.com/api/payment/create', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
